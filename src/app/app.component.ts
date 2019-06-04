@@ -6,7 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'PassGen';
+  title = 'PassOGen';
   textInputType = "password"
   outputInputType = "password"
   storedInputText = localStorage.getItem("inputText")
