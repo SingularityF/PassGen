@@ -1,6 +1,6 @@
 .container::after {
     content: "";
-    background: url(/assets/img/bg.svg) no-repeat center top;
+    background: url(../assets/img/bg.svg) no-repeat center top;
     opacity: 0.12;
     top: 0;
     left: 0;
