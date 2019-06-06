@@ -10,4 +10,4 @@ Use the following url to access the app, [https://passogen.singf.space](https://
 
 ## Running on your machine
 
-Download the latest release [here](https://github.com/SingularityF/PassOGen/releases/latest). Open `index.html` to run.
+Download the latest release [here](https://github.com/SingularityF/PassOGen/releases/latest). Open `index.html` to run the app.
