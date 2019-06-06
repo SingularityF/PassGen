@@ -1,10 +1,16 @@
 <!--The content below is only a placeholder and can be replaced.-->
+<a name="generator"></a>
 <div class="container">
 
-  <nav class="navbar navbar-dark bg-dark">
+  <nav class="navbar navbar-expand-lg sticky-top  navbar-dark bg-dark">
     <a class="navbar-brand text-light">PassOGen</a>
 
-    <ul class="navbar-nav flex-row ml-md-auto d-none d-md-flex">
+    <div class="navbar-nav">
+      <a class="nav-item nav-link" href="#generator">Generator</a>
+      <a class="nav-item nav-link" href="#instruction">Instructions</a>
+    </div>
+
+    <ul class="navbar-nav flex-row ml-md-auto">
       <li class="nav-item">
         <a class="nav-link p-2" href="https://github.com/SingularityF/PassOGen" target="_blank" rel="noopener"
           aria-label="GitHub">
@@ -21,8 +27,8 @@
 
   </nav>
 
-  <div class="row justify-content-center mt-5 pt-5">
-    <div class="col-lg-6">
+  <div class="row justify-content-center mt-5">
+    <div class="col-lg-6 p-5">
 
       <div class="input-group">
         <input [value]="storedInputText" (change)="refreshLS(inputInput.value)" class="form-control"
@@ -39,8 +45,8 @@
               </path>
             </svg></span>
         </div>
-        <input style="height:75px;font-size:32px;color:#5897da" pattern="[a-zA-Z]*" maxlength="4"
-          class="form-control text-center" type="text" placeholder="Encryption Key" (focus)="keyInput.value=''"
+        <input pattern="[a-zA-Z]*" maxlength="4" class="form-control text-center key-style" type="text"
+          placeholder="Encryption Key" (focus)="keyInput.value=''"
           (keyup)="tryEncrypt(inputInput.value,keyInput.value,keyInput.checkValidity(),keyInput,copyTarget)"
           [value]="keyValue" #keyInput>
       </div>
@@ -58,4 +64,8 @@
     </div>
   </div>
 
+
+  <div class="row justify-content-center" style="margin-top:1000px">
+    <a name="instruction"></a>
+  </div>
 </div>

@@ -20,6 +20,17 @@
     height: 2rem;
 }
 
+  .key-style{
+    height:75px;
+    font-size:3vw;
+    color:#5897da;
+  }
+  @media screen and (min-width: 1000px) {
+    .key-style {
+       font-size: 2rem;
+    }
+  }
+
   @keyframes shake {
     0% { transform: translate(1px, 1px)    }
     10% { transform: translate(-1px, -2px)  }
