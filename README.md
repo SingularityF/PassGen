@@ -1,5 +1,5 @@
 [![License](https://img.shields.io/github/license/SingularityF/PassOGen.svg)](https://opensource.org/licenses/MIT)
-[![Build](https://travis-ci.org/SingularityF/PassOGen.svg?branch=master)
+[![Build](https://travis-ci.org/SingularityF/PassOGen.svg?branch=master)](https://travis-ci.org/SingularityF/PassOGen)
 [![GitHub release](https://img.shields.io/github/release/SingularityF/PassOGen.svg)](https://github.com/SingularityF/PassOGen/releases/latest)
 
 # PassOGen
