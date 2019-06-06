@@ -1,3 +1,4 @@
+[![License](https://img.shields.io/github/license/SingularityF/PassOGen.svg)](https://opensource.org/licenses/MIT)
 [![GitHub release](https://img.shields.io/github/release/SingularityF/PassOGen.svg)](https://github.com/SingularityF/PassOGen/releases/latest)
 
 # PassOGen
